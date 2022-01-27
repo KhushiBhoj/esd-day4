@@ -3,7 +3,7 @@ const app = express();
 const port = 8080;
 
 app.get("/", (req, res) => {
-    res.send("Hello Heroku");
+    res.send("Hello Heroku, now deployed");
 })
 
 app.listen(process.env.PORT || port, () => {
